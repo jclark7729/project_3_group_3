@@ -8,6 +8,7 @@
 - Methodology
 - Models Implemented
 - Results and Insights
+- Gradio Application Development
 - Future Enhancements
 - Running the Application
 - Contributions
@@ -97,6 +98,30 @@ We tested multiple machine learning models for performance:
 
 ---
 
+## Gradio Application Development
+To provide an accessible interface for users, we developed a **Gradio-based web application** that allows real-time disease prediction based on symptom input.
+
+### Features:
+✔ **User-Friendly Interface**: Simple text-based symptom entry for ease of use.
+✔ **Instant Predictions**: The model outputs potential diseases in real-time.
+✔ **Multiple Symptom Input**: Users can enter multiple symptoms to improve diagnostic accuracy.
+✔ **Flagging & Feedback Mechanism**: Users can provide feedback on predictions to improve model refinement.
+✔ **Scalability**: The app is designed for **future API and cloud integration**.
+
+### Development Process:
+1. **Gradio Framework**: Utilized to create a browser-based UI with minimal dependencies.
+2. **Backend Integration**: Connected the trained CNN model to process input symptoms and generate predictions.
+3. **Performance Optimization**: Implemented caching and efficient model loading to ensure fast response times.
+
+### Deployment Plan:
+- **Local Testing**: Initial deployment for internal evaluation.
+- **Cloud Deployment**: Plans to integrate with **AWS/GCP for scalability**.
+- **Mobile Compatibility**: Optimizing UI for mobile users in future iterations.
+
+📌 **Gradio Demo Link**: [Provide App URL]
+
+---
+
 ## Future Enhancements
 🔹 **Expand Training Data**: Incorporate larger datasets for better generalization.
 🔹 **Explainability**: Integrate **SHAP** or **LIME** to improve interpretability.
@@ -133,3 +158,4 @@ Developed by **AI Boot Camp Project 3 Team**:
 
 ## Acknowledgments
 Special thanks to our mentors and instructors for their guidance and feedback in refining this project.
+
