@@ -1,0 +1,10 @@
+patient_feedback,output,flag,timestamp
+"cough, congestion, fatigue, headache,","['Common Cold', 'Tuberculosis', 'Pneumonia', 'Bronchial Asthma', 'Dengue']",Correct,2025-03-24 06:57:55.503102
+"cough, congestion, fatigue, headache,","['Common Cold', 'Tuberculosis', 'Pneumonia', 'Bronchial Asthma', 'Dengue']",Correct,2025-03-24 07:00:24.224669
+"headache, high blood pressure, irregular heartbeat,","['Dengue', 'Chickenpox', 'Typhoid', 'Malaria', 'Hypoglycemia']",Incorrect,2025-03-24 07:01:08.395213
+"dizzy, fatigue, tremors, irregular heartbeat,","['Hepatitis D', 'Dengue', 'Hepatitis E', 'Chickenpox', 'Typhoid']",Incorrect,2025-03-24 07:01:56.012265
+"abnormal growth, skin discoloration, lump","['Fungal Infection', 'Allergy', 'GERD', 'Chronic Cholestasis', 'Gastroenteritis']",Incorrect,2025-03-24 07:02:46.107981
+"fever, nausea, vomiting,","['Hepatitis D', 'Hepatitis A', 'Dengue', 'Hepatitis E', 'Typhoid']",Needs Improvement,2025-03-24 07:03:12.869606
+"fever, nausea, vomiting, fatigue, congestion","['Common Cold', 'Hepatitis D', 'Dengue', 'Hepatitis E', 'Typhoid']",Needs Improvement,2025-03-24 07:03:34.992133
+"fever, nausea, vomiting, fatigue, congestion, headache,","['Common Cold', 'Dengue', 'Typhoid', 'Hypoglycemia', 'Malaria']",Needs Improvement,2025-03-24 07:04:04.074985
+"irregular heartbeat, heart palpitations, palpitations, pain, shortness of breath","['Hypoglycemia', 'Vertigo', 'Allergy', 'Acne', 'Osteoarthritis']",Needs Improvement,2025-03-24 07:05:01.439411
